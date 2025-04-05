@@ -1,20 +1,22 @@
+//function is ablock of code which perform specific task .
+//function is used for make code reusble and readable and can be used multiple time just by calling function name 
 #include<iostream>
 using namespace std;
-/*int main(){
-    int n;
-    long factorial =1.0;
-     cout<<" enter a non negative  number";
-    // cin>>n;
-    ///for (int i=1;i<=n;i++){
-       // factorial *=i;
-   //     cout << "Factorial of " << n << " = " << factorial;    
-    //}//
-    return 0;
- //   }*/
-
-void Welcome(){
-    cout<<("hii");
+void print(string name){
+    for (int i= 1; i<5;i++){
+        cout<<name<<endl;
+    }
 }
-int main(){
-    Welcome();
+int main (){
+//for (int i = 0; i<=5;i++){
+  /*  cout<<" harshit tiwari "<<endl;
+}
+
+for (int i =0 ; i<5;i++){
+    cout<<" ramesh ";*/
+
+    print("harshit");
+    print ("sonu");
+
+    return 0;
 }
